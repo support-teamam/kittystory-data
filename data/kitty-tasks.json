@@ -1,0 +1,313 @@
+{
+  "schema": 1,
+  "version": 1,
+  "tasks": [
+    {
+      "id": "vax-kitten-fvrcp",
+      "task": "Kitten Vaccine Series (FVRCP)",
+      "system": "vaccines",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        20,
+        45
+      ],
+      "diy": false,
+      "appliesTo": [
+        "kitten"
+      ],
+      "description": "Core kitten boosters every 3-4 weeks from ~6 to 16 weeks (feline rhinotracheitis, calicivirus, panleukopenia)."
+    },
+    {
+      "id": "vax-rabies-kitten",
+      "task": "Rabies Vaccine (first)",
+      "system": "vaccines",
+      "monthInterval": 12,
+      "season": null,
+      "estimatedCost": [
+        15,
+        35
+      ],
+      "diy": false,
+      "appliesTo": [
+        "kitten"
+      ],
+      "description": "First rabies shot around 12-16 weeks, boosted at one year. Often legally required."
+    },
+    {
+      "id": "vax-rabies-adult",
+      "task": "Rabies Vaccine",
+      "system": "vaccines",
+      "monthInterval": 36,
+      "season": null,
+      "estimatedCost": [
+        15,
+        35
+      ],
+      "diy": false,
+      "appliesTo": [
+        "adult",
+        "senior"
+      ],
+      "description": "Booster every 1-3 years depending on local law and vaccine type."
+    },
+    {
+      "id": "vax-fvrcp-booster",
+      "task": "FVRCP Booster",
+      "system": "vaccines",
+      "monthInterval": 36,
+      "season": null,
+      "estimatedCost": [
+        20,
+        45
+      ],
+      "diy": false,
+      "appliesTo": [
+        "adult",
+        "senior"
+      ],
+      "description": "Core booster every 1-3 years after the kitten series and one-year booster."
+    },
+    {
+      "id": "vax-felv",
+      "task": "FeLV Vaccine",
+      "system": "vaccines",
+      "monthInterval": 12,
+      "season": null,
+      "estimatedCost": [
+        25,
+        45
+      ],
+      "diy": false,
+      "appliesTo": [
+        "kitten",
+        "adult"
+      ],
+      "description": "Feline leukemia vaccine — recommended for kittens and any cat with outdoor access."
+    },
+    {
+      "id": "par-flea-tick",
+      "task": "Flea & Tick Prevention",
+      "system": "parasite",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        10,
+        20
+      ],
+      "diy": true,
+      "appliesTo": [
+        "kitten",
+        "adult",
+        "senior"
+      ],
+      "description": "Monthly cat-specific product. Never use dog flea products on cats — some are toxic to them."
+    },
+    {
+      "id": "par-deworm",
+      "task": "Deworming",
+      "system": "parasite",
+      "monthInterval": 3,
+      "season": null,
+      "estimatedCost": [
+        10,
+        25
+      ],
+      "diy": true,
+      "appliesTo": [
+        "kitten",
+        "adult",
+        "senior"
+      ],
+      "description": "Routine intestinal deworming; more often for kittens and outdoor hunters."
+    },
+    {
+      "id": "par-heartworm",
+      "task": "Heartworm Prevention",
+      "system": "parasite",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        10,
+        20
+      ],
+      "diy": true,
+      "appliesTo": [
+        "kitten",
+        "adult",
+        "senior"
+      ],
+      "description": "Monthly preventive in endemic areas — there is no cure for heartworm in cats, so prevention is everything."
+    },
+    {
+      "id": "vet-kitten-checkup",
+      "task": "Kitten Checkup",
+      "system": "vet",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        40,
+        70
+      ],
+      "diy": false,
+      "appliesTo": [
+        "kitten"
+      ],
+      "description": "Monthly kitten visits alongside the vaccine series to track growth and health."
+    },
+    {
+      "id": "vet-wellness",
+      "task": "Wellness Exam",
+      "system": "vet",
+      "monthInterval": 12,
+      "season": null,
+      "estimatedCost": [
+        50,
+        90
+      ],
+      "diy": false,
+      "appliesTo": [
+        "adult"
+      ],
+      "description": "Annual physical, weight check, and dental look-over."
+    },
+    {
+      "id": "vet-senior-wellness",
+      "task": "Senior Wellness Exam",
+      "system": "vet",
+      "monthInterval": 6,
+      "season": null,
+      "estimatedCost": [
+        50,
+        90
+      ],
+      "diy": false,
+      "appliesTo": [
+        "senior"
+      ],
+      "description": "Twice-yearly exams for cats ~10+; catches kidney, thyroid, and dental disease early."
+    },
+    {
+      "id": "vet-senior-blood",
+      "task": "Senior Bloodwork",
+      "system": "vet",
+      "monthInterval": 12,
+      "season": null,
+      "estimatedCost": [
+        80,
+        200
+      ],
+      "diy": false,
+      "appliesTo": [
+        "senior"
+      ],
+      "description": "Annual blood and urine panel to screen for kidney disease, hyperthyroidism, and diabetes."
+    },
+    {
+      "id": "dent-cleaning",
+      "task": "Professional Dental Cleaning",
+      "system": "dental",
+      "monthInterval": 12,
+      "season": null,
+      "estimatedCost": [
+        200,
+        500
+      ],
+      "diy": false,
+      "appliesTo": [
+        "adult",
+        "senior"
+      ],
+      "description": "Cleaning under anesthesia; dental disease is very common and painful in cats."
+    },
+    {
+      "id": "dent-brushing",
+      "task": "Tooth Brushing",
+      "system": "dental",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        0,
+        10
+      ],
+      "diy": true,
+      "appliesTo": [
+        "kitten",
+        "adult",
+        "senior"
+      ],
+      "description": "Brush with cat-safe enzymatic toothpaste; build up slowly with rewards."
+    },
+    {
+      "id": "groom-nail",
+      "task": "Nail Trim",
+      "system": "grooming",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        0,
+        15
+      ],
+      "diy": true,
+      "appliesTo": [
+        "kitten",
+        "adult",
+        "senior"
+      ],
+      "description": "Trim every few weeks; provide scratching posts to keep claws healthy."
+    },
+    {
+      "id": "groom-brush",
+      "task": "Brushing & Coat Care",
+      "system": "grooming",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        0,
+        10
+      ],
+      "diy": true,
+      "appliesTo": [
+        "kitten",
+        "adult",
+        "senior"
+      ],
+      "description": "Weekly for short-hair, daily for long-hair to prevent mats and hairballs."
+    },
+    {
+      "id": "groom-litter",
+      "task": "Litter Box Deep Clean",
+      "system": "grooming",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        0,
+        15
+      ],
+      "diy": true,
+      "appliesTo": [
+        "kitten",
+        "adult",
+        "senior"
+      ],
+      "description": "Full empty-and-scrub monthly (scoop daily). Cats reject dirty boxes — a clean box prevents accidents."
+    },
+    {
+      "id": "groom-ear",
+      "task": "Ear Check & Clean",
+      "system": "grooming",
+      "monthInterval": 1,
+      "season": null,
+      "estimatedCost": [
+        0,
+        10
+      ],
+      "diy": true,
+      "appliesTo": [
+        "adult",
+        "senior"
+      ],
+      "description": "Check for wax, mites, and odor; clean only the visible ear with a vet-approved solution."
+    }
+  ]
+}
